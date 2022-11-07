@@ -1,0 +1,80 @@
+body {
+    background-color: lightskyblue;
+}
+img {
+    width: 20%;
+}
+#header {
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+blockquote {
+    text-align: center;
+    background-color: aqua;
+    border: 50px;
+    border-radius: 20px;
+    border-style: solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5px;
+}
+#soekarno {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.gambar {
+    text-align: center;
+}
+.isi {
+    background-color: aquamarine;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.firstcharacter {
+    float: left;
+    font-family: Georgia;
+    font-size: 40px;
+    line-height: 1px;
+    padding-top: 3px;
+    padding-right: 6px;
+    padding-left: 3px;
+} 
+.jawa {
+    font-style: italic;
+    font-weight: bold;
+}
+#profil {
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+}
+#beternak {
+    background-color: aquamarine;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+}
+.koleksi {
+    background-color: aquamarine;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+.promo {
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-left: 32%;
+    margin-right: 40%;
+    padding: 5px;
+}
