@@ -1,0 +1,24 @@
+img {
+    width: 5%;
+}
+
+nav {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav li {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
