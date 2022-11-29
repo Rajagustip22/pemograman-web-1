@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    display: flex;
+}
+div {
+    width: 75%;
+}
+header, footer {
+    background-color: yellow;
+    height: 15vh;
+    line-height: 15vh;
+}
+main {
+    display: flex;
+    height: 70vh;
+    line-height: 70vh;
+}
+article {
+    flex-grow: 3;
+}
+aside {
+    background-color: aqua;
+    flex-grow: 1;
+}
+nav {
+    background-color: pink;
+    width: 25%;
+    height: 100vh;
+    line-height: 100vh;
+}
