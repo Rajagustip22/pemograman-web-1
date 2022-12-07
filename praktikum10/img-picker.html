@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOMOR 4</title>
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="login.html">Nomer 1</a></li>
+                <li><a href="">Nomer 2</a></li>
+                <li><a href="img-picker.html">Nomer 4</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <select id="pilihan" onchange="cetakgambar()">
+        <option value="">--PILIH--</option>
+        <option value="bison">Bison</option>
+        <option value="gajah">Gajah</option>
+        <option value="gorila">Gorila</option>
+        <option value="macan">Macan</option>
+        <option value="singa">Singa</option>
+    </select>
+    <br>
+    <img id="gambar">
+
+
+     <script>
+        function cetakgambar(){
+            let pil = document.getElementById("pilihan").value;
+            let image = document.getElementById("gambar");
+
+            if(pil == "bison"){
+                alert("ini foto bison");
+                image.setAttribute("src", "img/bison.jpg");
+            }else if(pil == "gajah"){
+                alert("ini foto gajah");
+                image.setAttribute("src", "img/gajah.jpg");
+            }else if(pil == "gorila"){
+                alert("ini foto gorila");
+                image.setAttribute("src", "img/gorila.jpg");
+            }else if(pil == "macan"){
+                alert("ini foto macan");
+                image.setAttribute("src", "img/macan.jpg");
+            }else if(pil == "singa"){
+                alert("ini foto singa");
+                image.setAttribute("src", "img/singa.jpg");
+            }else(
+                alert("foto tidak terdaftar")
+            )
+        }
+     </script>
+</body>
+</html>
