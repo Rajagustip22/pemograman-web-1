@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    border-radius: 2em;
+}
+a:hover {
+    background-image: linear-gradient(rgb(145, 255, 151), rgb(252, 252, 252));        
+}
+.box {
+    margin-left: 27%;
+    border: 2px solid black;
+    background-color: aquamarine;
+    width: 45%;
+}
+.wadah_chat {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20%;
+}
+.wrap_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+hr {
+    background-color: black;
+    height: 1px;
+}
+.kirim {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    width: 15%;
+}
